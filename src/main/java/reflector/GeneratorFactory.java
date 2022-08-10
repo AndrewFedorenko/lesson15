@@ -23,6 +23,6 @@ public class GeneratorFactory {
         }
     }
     static Class<? extends Generator> getGenerator(Class[] classArray){
-        return classArray[new Random().nextInt(3)];
+        return classArray[new Random().nextInt(classArray.length)];
     }
 }
