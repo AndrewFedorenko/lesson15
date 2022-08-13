@@ -1,7 +1,5 @@
 package random;
 
-import java.util.Random;
-
 public class GetIntRandom extends AbstractRandom implements random.Generator<Integer> {
 
     @Override
