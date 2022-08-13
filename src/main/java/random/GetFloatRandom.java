@@ -2,7 +2,7 @@ package random;
 
 import java.util.Random;
 
-public class GetFloatRandom implements random.Generator{
+public class GetFloatRandom implements random.Generator<Float>{
     @Override
     public Float getNextRand() {
         Random intRnd = new Random();
