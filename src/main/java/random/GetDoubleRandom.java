@@ -2,10 +2,9 @@ package random;
 
 import java.util.Random;
 
-public class GetDoubleRandom implements Generator<Double>{
+public class GetDoubleRandom extends AbstractRandom implements Generator<Double>{
     @Override
     public Double getNextRand() {
-        Random intRnd = new Random();
-        return intRnd.nextDouble();
+        return super.rnd.nextDouble();
     }
 }

@@ -1,5 +1,7 @@
 package random;
 
-public interface Generator <T extends Number>{
+import java.util.Random;
+
+public interface Generator <T extends Number> {
     T getNextRand();
 }
